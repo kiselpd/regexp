@@ -20,17 +20,14 @@ class PhoneBook:
     def __read_csv(self, file_csv_name: str):
     #читает данные из csv-файла и помещает в словарь
     
-
     def __bring_to_format(self, phone: dict):
     #форматирует ФИО и телефон в допустимый вид
     
-
     def __add_new_phone(self, phone_dict: dict):
     #добавляет новую запись в адресную книгу и проверяет на дубликает(обновляет запись)
     
     def fill_from_csv(self, file_csv_name: str):
     #заполняет адресную книгу из csv-файла(метод для пользователя)
-
 
     def print_book(self):
     #выводит адресную книгу
